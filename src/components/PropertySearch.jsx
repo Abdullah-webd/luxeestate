@@ -26,7 +26,7 @@ const PropertySearch = ({ className, variant = "default" }) => {
                 <input 
                   id="location"
                   type="text" 
-                  className="input pr-10" 
+                  className="input pr-10 text-black" 
                   placeholder="City, neighborhood, or ZIP" 
                   value={location}
                   onChange={(e) => setLocation(e.target.value)}
